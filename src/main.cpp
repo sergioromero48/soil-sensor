@@ -16,7 +16,6 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup() {
   Serial.begin(9600);
   delay(500);
-  Serial.println("Start reading");
 
   dht.begin();
 
